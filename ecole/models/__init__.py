@@ -1,6 +1,3 @@
-from datetime import date
-
-
 class Course:
     def __init__(self):
         self.students_taking_it = None
@@ -12,7 +9,6 @@ class Course:
     def add_student(self, student1):
         pass
 
-
 class Teacher:
     name: None
 
@@ -21,16 +17,13 @@ class Teacher:
         self.hiring_date = None
         self.name = None
         self.courses_teached = None
-
     pass
-
 
 class Student:
     def __init__(self):
         self.courses_taken = None
 
     pass
-
 
 class Person:
     pass

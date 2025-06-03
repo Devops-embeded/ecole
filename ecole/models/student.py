@@ -4,6 +4,7 @@ from typing import List
 from .person import Person
 from .course import Course
 
+
 @dataclass
 class Student(Person):
     courses_enrolled: List[Course] = field(default_factory=list, init=False)

@@ -5,6 +5,7 @@ from typing import List
 from .person import Person
 from .course import Course
 
+
 @dataclass
 class Teacher(Person):
     hire_date: date

@@ -2,7 +2,6 @@
 import unittest
 from datetime import date
 from models.teacher import Teacher  # Correction d'import
-# from models.person import Person  # pas nécessaire ici
 
 class TestTeacher(unittest.TestCase):
     def setUp(self):
