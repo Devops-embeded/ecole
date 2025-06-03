@@ -23,3 +23,4 @@ class Course:
         self.teacher = teacher
         if self not in teacher.courses_taught:
             teacher.courses_taught.append(self)
+
