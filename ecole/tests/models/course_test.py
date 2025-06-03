@@ -36,5 +36,6 @@ class TestTeacher(unittest.TestCase):
         # Ce test doit échouer si add_course ne met pas à jour courses_taught
         self.assertIn(course, self.teacher1.courses_taught)
 
+
 if __name__ == '__main__':
     unittest.main()

@@ -4,6 +4,8 @@ from datetime import date
 from models.teacher import Teacher  # Correction d'import
 
 class TestTeacher(unittest.TestCase):
+
+
     def setUp(self):
         """Méthode d'initialisation pour chaque test"""
         # Création de deux enseignants avec prénom, nom, âge, date d'embauche
@@ -19,6 +21,7 @@ class TestTeacher(unittest.TestCase):
             age=47,
             hire_date=date(2020, 5, 15)
         )
+
 
     def test_teacher_creation(self):
         """Test la création des enseignants"""
