@@ -1,7 +1,7 @@
 import unittest
 from datetime import date
-
 from models.teacher import Teacher
+from models.course import Course
 
 
 class TestTeacher(unittest.TestCase):
@@ -31,11 +31,8 @@ class TestTeacher(unittest.TestCase):
         self.assertIsInstance(self.teacher2.hire_date, date)
 
     def test_add_course_does_not_update_courses_taught(self):
-        from models.course import Course
-
         course = Course("Mathématiques", None, None)
         self.teacher1.add_course(course)
-
         # Ce test doit échouer si add_course ne met pas à jour courses_taught
         self.assertIn(course, self.teacher1.courses_taught)
 

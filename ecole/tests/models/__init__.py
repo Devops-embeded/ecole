@@ -13,15 +13,13 @@ class Course:
 class Teacher:
     def __init__(self):
         self.courses_teached = None
-
-    pass
+        pass
 
 
 class Student:
     def __init__(self):
         self.courses_taken = None
-
-    pass
+        pass
 
 
 class Person:
