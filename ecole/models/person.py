@@ -5,6 +5,7 @@ from typing import Optional
 from .address import Address
 
 
+
 @dataclass
 class Person(ABC):
     first_name: str
