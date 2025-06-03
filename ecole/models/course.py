@@ -5,7 +5,6 @@ from typing import List, Optional
 from models import Teacher, Student
 
 
-
 @dataclass
 class Course:
     name: str
