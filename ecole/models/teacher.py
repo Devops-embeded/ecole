@@ -15,4 +15,3 @@ class Teacher(Person):
         if course not in self.courses_taught:
             self.courses_taught.append(course)
             course.set_teacher(self)
-
