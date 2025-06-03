@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-
 from typing import List
 from models.student import Student
 from models.teacher import Teacher
 from models.course import Course
+
 
 class School:
     def __init__(self) -> None:
